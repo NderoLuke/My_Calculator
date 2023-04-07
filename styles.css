@@ -27,3 +27,41 @@ form input {
     background-color: black;
     pointer-events: none;
 }
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+button {
+    flex: 0 0 22%;
+    margin: 5px 0;
+    width: 60px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-yellow {
+    background-color: rgb(245, 146, 62);
+    color: aliceblue
+}
+
+.btn-grey {
+    background-color: rgb(224, 224, 224);
+
+}
+
+.btn-equal {
+    background-color: green;
+
+}
+
+.btn-clear {
+    background-color: red;
+
+}
